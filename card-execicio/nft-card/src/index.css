@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root{
+  /* Primary */
+  --Soft-blue: hsl(215, 51%, 70%);
+ --Cyan: hsl(178, 100%, 50%);
+
+ /* Neutral */
+ --Very-dark-blue-: hsl(217, 54%, 11%); /*(main BG)*/
+--Very-dark-blue: hsl(216, 50%, 16%); /*(card BG)*/
+--Very-dark-blue--: hsl(215, 32%, 27%); /*(line)*/
+--White: hsl(0, 0%, 100%);
+}
+body{
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Very-dark-blue-);
+  height: 100vh;
+}
+.container{
+  background-color: var(--Very-dark-blue);
+  width: 15vw;
+  height: 50vh;
+  border-radius: 5px;
+
+}
+.imagem{
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  font-family: "Outfit", sans-serif;
+}
+.h3{
+  color: var(--White);
+  font-family: "Outfit", sans-serif;
+}
+.texto{
+  font-family: "Outfit", sans-serif;
+  color: var(--Soft-blue);
+  font-size: 11px;
+}
+.criador{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  color: var(--Soft-blue);
+  font-family: "Outfit", sans-serif;
+}
+.imagemC{
+  height: 20px;
+  width: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.textoCriador{
+  position: relative;
+  left: 50px;
+  font-size: 10px;
+}
+.destaque{
+  color: var(--White);
+  text-decoration: none;
+}
